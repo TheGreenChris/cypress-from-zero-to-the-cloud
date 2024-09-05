@@ -6,7 +6,8 @@
   "scripts": {
     "cy:open": "cypress open",
     "test": "cypress run",
-    "mobile": "cypress open --config viewportWidth=370 viewportHeight=660"
+    "mobile": "cypress open --config viewportWidth=370 viewportHeight=660",
+    "test:cloud": "cypress run --record"
   },
   "repository": {
     "type": "git",
